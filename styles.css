@@ -1,0 +1,97 @@
+/* General Styles */
+background: linear-gradient(to right, #9922ff, #00ffec);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh; /* changed body's height to be really fat (takes up the whole viewing port) */
+            margin: 0; /* the default margin is GONE */
+            font-size: 24px; /* default font's size */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+ .gray-box {
+        background-color: #34374b; /* gray background color */
+        color: #f0f0f0; /* text color */
+        padding: 24px; /* padding inside the box since outside one is irrelevant */
+        border-radius: 2px; /* the circular corner thingy's pixels */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* shadow for cool depth */
+        text-align: center;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		margin-top: 40px;
+		transition: transform 0.3s ease, opacity 0.3s ease; //for making it go poof
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #7d6c45;
+    color: #0f0e09;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4f3d28;
+    color: 0f0e09;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #0f0e09;
+}
+
+nav a {
+    color: #f1dece;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #7d6c45;
+}
+
+/* Section Styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #f1dece;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 1px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Buttons */
+button {
+    background-color: #8a7f72;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
